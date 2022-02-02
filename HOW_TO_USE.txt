@@ -1,8 +1,8 @@
-==How to use Genisys== [simple guide]
+==How to use== [simple guide]
 
 COPY CODE WITH CREDITS
 
-Follow me on Twitter - @Cryptonian007
+
 Also, if you enjoyed using the tool, do give it a star on GitHub
 
 CONTENTS
@@ -62,6 +62,6 @@ Ans- It may be because the account is probably limited. Try other accounts
 
 Ans- If you have 2 factor authentication on, turn it off. After login, you can turn it on again
 
-Any problems, open issue at GitHub or join Telegram group - Techmedies_Hub
+Any problems, open issue at GitHub
 
 
