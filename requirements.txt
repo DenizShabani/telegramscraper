@@ -1,0 +1,4 @@
+telethon==1.16.4
+keyboard==0.13.5
+colorama==0.4.3
+pyfiglet==0.8.post1
