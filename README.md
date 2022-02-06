@@ -1,6 +1,6 @@
 # Version 1.0
 
-tldr: Adds accounts via phone number and API. If you want to add accounts only via phone, then scroll to the end. If you want more free projects like this, then please support me!
+<b>tldr</b>: Adds accounts via phone number and API. If you want to add accounts only via phone, then scroll to the end. If you want more free projects like this, then please support me!
 
 # Features
 
