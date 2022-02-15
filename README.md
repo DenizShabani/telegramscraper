@@ -1,6 +1,11 @@
-# Version 1.0
+# Version 1.1
 
 <b>tldr</b>: Adds accounts via phone number and API. If you want to add accounts only via phone, then scroll to the end. If you want more free projects like this, then please support me!
+
+# Update Features
+
+- Fixed bug with scraping. You can now scrape from public groups of any size.
+- Fixed bug with addbyid.py. You can now start adding by IDs again.
 
 # Features
 
@@ -46,8 +51,6 @@ Sometimes users may not get added at all, this may be because the account is pro
 
 # Buy me a coffee
 
-BTC - 3QFmZdhdy6mjHBgybh89aLVhWLDSVPxE72
-
 https://www.buymeacoffee.com/denizshabani
 
 # Warning
@@ -56,4 +59,9 @@ https://www.buymeacoffee.com/denizshabani
 
 # News
 
-* I have also created a scraper and adder which lets you add accounts only via phone number(no api needed). If you need it contact me at t.me/noneofyourbusiness69
+* I have also created a scraper and adder which lets you add accounts only via phone number(no api needed). If you need it contact me:
+ 
+[![Telegram Contact](https://img.shields.io/badge/Telegram-Contact-brightgreen)](https://t.me/noneofyourbusiness69) 
+* If you have any problems regarding the script then write it in this groupchat:
+
+[![Telegram Group](https://img.shields.io/badge/Telegram-Group-brightgreen)](https://t.me/GitHubScriptsHelp)
