@@ -1,10 +1,6 @@
-# Genisys V2.5
-<p align='center'>
-  <img src="https://github.com/Cryptonian007/Genisys/blob/main/img/GENISYS.png" width="200" height="200"><br>
-  Powerful Telegram Members Scraping and Adding Toolkit<br>
-  <a href="https://telegram.me/Techmedies_1"><img src="https://img.shields.io/badge/Telegram-Techmedies-green"></a> <a href="https://twitter.com/cryptonian007?lang=en"><img src="https://img.shields.io/badge/FollowOn-Twitter-green"></a>
-  </p>
-<b> THIS PROJECT IS NO LONGER UNDER MAINTENANCE</b>
+# Version 1.0
+
+<b>tldr</b>: Adds accounts via phone number and API. If you want to add accounts only via phone, then scroll to the end. If you want more free projects like this, then please support me!
 
 # Features
 
@@ -46,17 +42,13 @@
 
 # Note
 
-Sometimes users may not get added at all, this may be because the account is probably limited. Try with another account
-
-# Screenshot
-
-  <img src="https://github.com/Cryptonian007/Genisys/blob/main/img/Screenshot%202021-07-20%20094612.png">
-  </p>
+Sometimes users may not get added at all, this may be because the account is probably limited or you entered a channel. Try with another account. 
 
 # Buy me a coffee
 
-LTC - MG35ToG6g9YxwQzKcQFismyX5iNxJJx2Bg<br>
-BTC - 35ZcHyk4JWGjbyn8FxHdUrRyAAg3bhJxME
+BTC - 3QFmZdhdy6mjHBgybh89aLVhWLDSVPxE72
+
+https://www.buymeacoffee.com/denizshabani
 
 # Warning
 
@@ -64,4 +56,4 @@ BTC - 35ZcHyk4JWGjbyn8FxHdUrRyAAg3bhJxME
 
 # News
 
-* Tool [Astra](https://github.com/Cryptonian007/Astra.git) has been recently released. Check it out
+* I have also created a scraper and adder which lets you add accounts only via phone number(no api needed). If you need it contact me at t.me/noneofyourbusiness69
