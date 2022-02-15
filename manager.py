@@ -20,7 +20,7 @@ def banner():
     f = pyfiglet.Figlet(font='slant')
     banner = f.renderText('Telegram')
     print(f'{random.choice(colors)}{banner}{n}')
-    print(r+'  Version: 1.0 | Author: Shabani'+n+'\n')
+    print(r+'  Version: 1.1 | Author: Shabani'+n+'\n')
 
 
 def clr():
@@ -63,12 +63,12 @@ while True:
                     for added in newly_added:
                         c = TelegramClient(f'sessions/{added[2]}', added[0], added[1])
                         try:
-                        	c.start()
-                        	print(f'n\n{lg}[+] Logged in - {added[2]}')
-                        	c.disconnect()
+                            c.start()
+                            print(f'n\n{lg}[+] Logged in - {added[2]}')
+                            c.disconnect()
                         except PhoneNumberBannedError:
-                        	print(f'{r}[!] {added[2]} is banned! Filter it using option 2')
-                        	continue
+                            print(f'{r}[!] {added[2]} is banned! Filter it using option 2')
+                            continue
                         print('\n')
                     input(f'\n{lg}Press enter to goto main menu...')
                     break
@@ -163,6 +163,6 @@ while True:
         input(f'{lg}Press enter to goto main menu{n}')
         f.close()
     elif a == 5:
-    	clr()
-    	banner()
-    	quit()
+        clr()
+        banner()
+        quit()
