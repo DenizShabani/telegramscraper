@@ -92,8 +92,8 @@ for user in users:
         client(InviteToChannelRequest(entity, [user_to_add]))
         usr_id = user['user_id']
         print(f'{attempt}{g} Adding {usr_id}{rs}')
-        print(f'{sleep}{g} Sleep 20s{rs}')
-        time.sleep(20)
+        print(f'{sleep}{g} Sleep 30s{rs}')
+        time.sleep(30)
     except PeerFloodError:
         #time.sleep()
         os.system(f'del {file}')

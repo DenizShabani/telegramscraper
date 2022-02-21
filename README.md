@@ -9,7 +9,7 @@
 
 # Features
 
-* ADDS IN BULK[by user id, not by username]
+* ADDS IN BULK[by username]
 * Scrapes and adds to public groups
 * Adds 50-60 members on an average
 * Works in Windows systems
@@ -20,7 +20,7 @@
 * Least chances of account ban
 * Script auto-joins public group from all accounts for faster adding
 * Filters banned accounts and remove them, making things easy
-* Genisys can also store unlimited accounts for adding purposes
+* It can also store unlimited accounts for adding purposes
 * Adding scripts launches automatically based on number of accounts to use
 
 # How to use

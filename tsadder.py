@@ -177,11 +177,8 @@ clr()
 if not os.name == 'nt':
     print(f'{error}{r} Automation supports only Windows systems')
     sys.exit()
-choice = int(input(f'{plus}{lg} Enter 1 to add by username or 2 to add by id: {r}'))
-if choice == 1:
-    program = 'usradder.py'
-else:
-    program = 'addbyid.py'
+
+program = 'usradder.py'
 o = str(len(to_use))
 print(f'\n{info}{r} This will be fully automated.')
 print(f'{info}{r} Don\'t touch the keyboard until cmd window pop-up stops')

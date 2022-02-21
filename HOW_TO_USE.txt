@@ -14,7 +14,7 @@ CONTENTS
 
 step 1: Storing accounts using manager.py for scraping and adding purposes
 
-i) Open terminal in the Genisys directory and enter command
+i) Open terminal in the repo directory and enter command
 >>> python manager.py
 ii) If you wanna enter new accounts, choose option 1
     Enter Api id, Api hash and phone number
@@ -47,9 +47,8 @@ ii) It'll create sessions and will ask for login code if not logged in. IF YOU D
 iii) Then enter username of the public group without @ sign. It'll join from all accounts
 iv) Then enter number of accounts to use
 EACH ACCOUNT WILL GET 60 USERS TO ADD. IT MAY BE LESS THAN 60 DUE TO PRIVACY RESTRICTIONS OR PEER FLOOD ERROR
-v) Choose whether to add by username or by user ID
-vi) Then read the warning and press enter to proceed
-vii) It'll launch scripts and it'll add members
+v) Then read the warning and press enter to proceed
+vi) It'll launch scripts and it'll add members
 
 
 ==TROUBLESHOOTING==
@@ -62,6 +61,6 @@ Ans- It may be because the account is probably limited. Try other accounts
 
 Ans- If you have 2 factor authentication on, turn it off. After login, you can turn it on again
 
-Any problems, open issue at GitHub
+Any problems, open issue at GitHub or contact me on telegram group you will find on README.md
 
 
