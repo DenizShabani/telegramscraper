@@ -1,9 +1,10 @@
 import requests
-from telethon.sync import TelegramClient
-from telethon.errors.rpcerrorlist import PhoneNumberBannedError
-import pickle, pyfiglet
+import telethon
+import pickle
+import pyfiglet
 from colorama import init, Fore
-import os, random
+import os
+import random
 from time import sleep
 
 init()
@@ -15,6 +16,7 @@ ye = Fore.YELLOW
 r = Fore.RED
 n = Fore.RESET
 colors = [lg, r, w, cy, ye]
+
 
 def banner():
     f = pyfiglet.Figlet(font='slant')
@@ -29,11 +31,12 @@ def clr():
     else:
         os.system('clear')
 
+
 while True:
     clr()
-    #print(r)
+    # print(r)
     banner()
-    #print(n)
+    # print(n)
     print(lg+'[1] Add new accounts'+n)
     print(lg+'[2] Filter all banned accounts'+n)
     print(lg+'[3] List out all the accounts'+n)
@@ -48,6 +51,11 @@ while True:
                 a = int(input(f'\n{lg}Enter API ID: {r}'))
                 b = str(input(f'{lg}Enter API Hash: {r}'))
                 c = str(input(f'{lg}Enter Phone Number: {r}'))
+                print(c[0])
+                if c[0] != '+':
+                    c = '+'+c
+                print(c)
+
                 p = ''.join(c.split())
                 pickle.dump([a, b, p], g)
                 newly_added.append([a, b, p])
@@ -61,13 +69,15 @@ while True:
                     clr()
                     print(lg + '[*] Logging in from new accounts...\n')
                     for added in newly_added:
-                        c = TelegramClient(f'sessions/{added[2]}', added[0], added[1])
+                        c = TelegramClient(
+                            f'sessions/{added[2]}', added[0], added[1])
                         try:
                             c.start()
                             print(f'n\n{lg}[+] Logged in - {added[2]}')
                             c.disconnect()
                         except PhoneNumberBannedError:
-                            print(f'{r}[!] {added[2]} is banned! Filter it using option 2')
+                            print(
+                                f'{r}[!] {added[2]} is banned! Filter it using option 2')
                             continue
                         print('\n')
                     input(f'\n{lg}Press enter to goto main menu...')
