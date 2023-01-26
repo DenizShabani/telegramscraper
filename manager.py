@@ -45,8 +45,8 @@ while True:
         with open('vars.txt', 'ab') as g:
             newly_added = []
             while True:
-                a = int(input(f'\n{lg}Enter API ID: 9292369'))
-                b = str(input(f'{lg}Enter API Hash: ecdcfc07dc6a728d777cdbde855c4312'))
+                a = int(input(f'\n{lg}Enter API ID:  {r = 9292369}'))
+                b = str(input(f'{lg}Enter API Hash:  {r = 'ecdcfc07dc6a728d777cdbde855c4312'}'))
                 c = str(input(f'{lg}Enter Phone Number: {r}'))
                 p = ''.join(c.split())
                 pickle.dump([a, b, p], g)
